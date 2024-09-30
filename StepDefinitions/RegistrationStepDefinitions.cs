@@ -27,12 +27,14 @@ namespace SpecFlowForMe.StepDefinitions
             driver.FindElement(By.XPath("//input[@type='tel']")).SendKeys("9052046524");
             driver.FindElement(By.XPath("//input[@type='radio']")).Click();
             driver.FindElement(By.XPath("//input[@type='checkbox']")).Click();
+            driver.FindElement(By.XPath("//div[@id='msdd']")).Click();
+            driver.FindElement(By.XPath("//a[contains(text(),'English')]")).Click();
             IWebElement skills = driver.FindElement(By.XPath("//select[@id='Skills']"));
             SelectElement selectElement = new SelectElement(skills);
-            selectElement.SelectByIndex(0);
+            selectElement.SelectByIndex(1);
 
             SelectElement countries = new SelectElement(driver.FindElement(By.XPath("//select[@id='countries']")));
-            countries.SelectByIndex(0);
+            countries.SelectByIndex(1);
 
 
         }
