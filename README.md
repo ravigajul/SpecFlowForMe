@@ -6,6 +6,7 @@ This project is to document the selenium with C# using spec flow. IDE : Visual S
 Download and install Visual Studio Community Edition from the official website.  
 During installation, ensure you select the .NET desktop development workload.  
 Install .Net Desktop Runtime 6.0 -https://dotnet.microsoft.com/en-us/download/dotnet/6.0  
+Or right click on the solution - > Properties -> Target Framework -> .Net 6 or above
 
 
 ## Step 2: Install SpecFlow Extension
